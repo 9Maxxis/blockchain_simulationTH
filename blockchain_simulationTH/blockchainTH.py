@@ -6,11 +6,12 @@ import datetime
 import binascii
 from time import ctime
 
-from io import *
-from ecc import *
-from helper import *
- 
-from script import *
+
+import blockchain_simulationTH
+from blockchain_simulationTH.ecc import *
+from blockchain_simulationTH.helper import *
+from blockchain_simulationTH.op import *
+from blockchain_simulationTH.script import *
 
 
 tx = {}

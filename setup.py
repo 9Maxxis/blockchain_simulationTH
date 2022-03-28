@@ -10,20 +10,20 @@ DESCRIPTION = '\n\n'.join(LOAD_TEXT(_) for _ in [
 ])
 
 setup(
-  name = 'unclechat',      
-  packages = ['unclechat'], 
-  version = '0.0.1',  
+  name = 'blockchain_simulationTH',      
+  packages = ['blockchain_simulationTH'], 
+  version = '0.0.2',  
   license='MIT', 
-  description = 'Free Chat Rooms by Uncle Engineer',
+  description = '(BlockchainTH) Blockchain Simulation by 9Maxxis',
   long_description=DESCRIPTION,
-  author = 'Uncle Engineer',                 
-  author_email = 'loong.wissawakorn@gmail.com',     
-  url = 'https://github.com/UncleEngineer/UncleChat',  
-  download_url = 'https://github.com/UncleEngineer/UncleChat/archive/0.0.1.zip',  
-  keywords = ['Chat Room', 'Chat', 'Uncle Engineer'],   
+  author = '9Maxxis',                 
+  author_email = '',     
+  url = 'https://github.com/9Maxxis/blockchain_simulationTH',  
+  download_url = 'https://github.com/9Maxxis/blockchain_simulationTH/archive/refs/tags/v0.0.2.zip',  
+  keywords = ['blockchain', 'blockchain simulation', '9Maxxis'],   
   classifiers=[
     'Development Status :: 3 - Alpha',     
-    'Intended Audience :: Developers',     
+    'Intended Audience :: Education',     
     'Topic :: Software Development :: Build Tools',
     'License :: OSI Approved :: MIT License',   
     'Programming Language :: Python :: 3',      
@@ -33,5 +33,6 @@ setup(
     'Programming Language :: Python :: 3.7',
     'Programming Language :: Python :: 3.8',
     'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10'
   ],
 )
